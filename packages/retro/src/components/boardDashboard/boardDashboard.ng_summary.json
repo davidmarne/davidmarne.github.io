@@ -1,0 +1,173 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../itemCard/itemCard.dart",
+        "5": false
+      },
+      {
+        "1": "../itemCreate/itemCreate.dart",
+        "5": false
+      },
+      {
+        "1": "../../middleware/creationMiddleware.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/group.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/item.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/category.dart",
+        "5": false
+      },
+      {
+        "1": "../../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../../store.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "BoardDashboardComponent",
+        "5": [
+          {
+            "1": "StoreService",
+            "4": "storeService"
+          },
+          {
+            "1": "RouteParams",
+            "4": "_routeParams"
+          }
+        ],
+        "6": [
+          "OnInit"
+        ],
+        "7": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          },
+          {
+            "2": "ItemCreateComponent"
+          },
+          {
+            "2": "ItemCardComponent"
+          }
+        ]
+      }
+    ],
+    "6": "boardDashboard.dart"
+  },
+  "type": {
+    "BoardDashboardComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "boardDashboard",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BoardDashboardComponent",
+        "moduleUrl": "asset:retro/lib/src/components/boardDashboard/boardDashboard.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "StoreService",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "RouteParams",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div *ngIf=\"board != null\">\n\n  <section class=\"hero is-primary\">\n    <div class=\"hero-body\">\n      <div class=\"container\">\n        <h1 class=\"title\">{{board.displayName}}</h1>\n        <h2 class=\"subtitle\">{{board.description}}</h2>\n      </div>\n    </div>\n  </section>\n\n  <section>\n    <div class=\"container\">\n      <nav class=\"level\">\n        <div class=\"level-left\">\n          <div class=\"level-item\">\n            <div class=\"field has-addons\">\n              <p class=\"control\">\n                <input class=\"input\" type=\"text\" placeholder=\"Create a Category\" [(ngModel)]=\"categoryCreationValue\">\n              </p>\n              <p class=\"control\">\n                <input class=\"input\" type=\"color\" [(ngModel)]=\"creationColor\">\n              </p>\n              <p class=\"control\">\n                <a class=\"button\" (click)=\"resetCategoryCreation()\">Cancel</a>\n              </p>\n              <p class=\"control\">\n                <a class=\"button is-primary\" (click)=\"sumbitCategoryCreation()\">Create</a>\n              </p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"tabs is-toggle is-pulled-right\" >\n          <ul>\n            <li class=\"is-active\">\n              <a>\n                <span>Category</span>\n              </a>\n            </li>\n            <li>\n              <a>\n                <span>Random</span>\n              </a>\n            </li>\n            <li\n              (click)=\"toggleShowingNotes()\"\n              [ngClass]=\"{'is-active': showingNotes}\">\n              <a>\n                <span>Show Notes</span>\n              </a>\n            </li>\n          </ul>\n        </div>\n      </nav>\n    </div>\n  </section>\n\n\n  <div *ngFor=\"let category of board.categories.values\">\n    <section class=\"section\">\n      <div class=\"container\">\n        <h1 class=\"title\">{{category.title}}</h1>\n        <div class=\"columns is-multiline is-mobile\">\n          <div class=\"column is-half-tablet is-one-third-desktop\">\n              <item-create [category]=\"category\"></item-create>\n          </div>\n          <div *ngFor=\"let item of itemsForCategory(category)\" class=\"column is-half-tablet is-one-third-desktop\">\n              <item-card [category]=\"category\" [item]=\"item\"></item-card>\n          </div>\n        </div>\n      </div>\n    </section>\n  </div>\n</div>\n",
+        "templateUrl": "asset:retro/lib/src/components/boardDashboard/boardDashboard.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "DEFAULT_CATEGORY_COLOR": {
+      "class": "Identifier",
+      "name": "DEFAULT_CATEGORY_COLOR",
+      "moduleUrl": "asset:retro/lib/src/components/boardDashboard/boardDashboard.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

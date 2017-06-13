@@ -1,0 +1,195 @@
+{
+  "ngDeps": {
+    "1": "creationMiddleware",
+    "3": [
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_collection/built_collection.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "4": "firebase",
+        "5": false
+      },
+      {
+        "1": "../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../state/boards.dart",
+        "5": false
+      },
+      {
+        "1": "../models/group.dart",
+        "5": false
+      },
+      {
+        "1": "../models/category.dart",
+        "5": false
+      },
+      {
+        "1": "../models/item.dart",
+        "5": false
+      },
+      {
+        "1": "../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../models/user.dart",
+        "5": false
+      },
+      {
+        "1": "../serializers.dart",
+        "5": false
+      }
+    ],
+    "6": "creationMiddleware.dart",
+    "7": [
+      {
+        "1": "../state/app.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../state/boards.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../models/group.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "../models/category.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "../models/item.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "../models/board.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "../models/user.template.dart",
+        "4": "i6"
+      },
+      {
+        "1": "../serializers.template.dart",
+        "4": "i7"
+      }
+    ]
+  },
+  "type": {
+    "CreateBoardPayload": {
+      "class": "Identifier",
+      "name": "CreateBoardPayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreateCategoryPayload": {
+      "class": "Identifier",
+      "name": "CreateCategoryPayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreateGroupPayload": {
+      "class": "Identifier",
+      "name": "CreateGroupPayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreateItemPayload": {
+      "class": "Identifier",
+      "name": "CreateItemPayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreateUserPayload": {
+      "class": "Identifier",
+      "name": "CreateUserPayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreationMiddlewareActions": {
+      "class": "Identifier",
+      "name": "CreationMiddlewareActions",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreationMiddlewareActionsNames": {
+      "class": "Identifier",
+      "name": "CreationMiddlewareActionsNames",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$CreationMiddlewareActions": {
+      "class": "Identifier",
+      "name": "_$CreationMiddlewareActions",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createBoard": {
+      "class": "Identifier",
+      "name": "_createBoard",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createCategory": {
+      "class": "Identifier",
+      "name": "_createCategory",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createGroup": {
+      "class": "Identifier",
+      "name": "_createGroup",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createItem": {
+      "class": "Identifier",
+      "name": "_createItem",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createUser": {
+      "class": "Identifier",
+      "name": "_createUser",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_keyListToBuiltMap": {
+      "class": "Identifier",
+      "name": "_keyListToBuiltMap",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "createCreationMiddleware": {
+      "class": "Identifier",
+      "name": "createCreationMiddleware",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,94 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "4": "firebase",
+        "5": false
+      },
+      {
+        "1": "./state/app.dart",
+        "5": false
+      },
+      {
+        "1": "./middleware/creationMiddleware.dart",
+        "5": false
+      },
+      {
+        "1": "./middleware/refMiddleware.dart",
+        "5": false
+      },
+      {
+        "1": "./middleware/subSpyMiddleware.dart",
+        "5": false
+      },
+      {
+        "1": "./middleware/loggingMiddleware.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "StoreService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ]
+      }
+    ],
+    "6": "store.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "./state/app.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "./middleware/creationMiddleware.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "./middleware/refMiddleware.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "./middleware/subSpyMiddleware.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "./middleware/loggingMiddleware.template.dart",
+        "4": "i5"
+      }
+    ]
+  },
+  "type": {
+    "StoreService": {
+      "class": "Type",
+      "name": "StoreService",
+      "moduleUrl": "asset:retro/lib/src/store.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
+}

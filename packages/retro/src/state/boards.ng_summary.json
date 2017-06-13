@@ -1,0 +1,126 @@
+{
+  "ngDeps": {
+    "1": "boards",
+    "3": [
+      {
+        "1": "package:built_collection/built_collection.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_value/built_value.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../models/category.dart",
+        "5": false
+      },
+      {
+        "1": "../models/item.dart",
+        "5": false
+      }
+    ],
+    "6": "boards.dart"
+  },
+  "type": {
+    "AddCategoryPayload": {
+      "class": "Identifier",
+      "name": "AddCategoryPayload",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AddItemPayload": {
+      "class": "Identifier",
+      "name": "AddItemPayload",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Boards": {
+      "class": "Identifier",
+      "name": "Boards",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "BoardsActions": {
+      "class": "Identifier",
+      "name": "BoardsActions",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "BoardsActionsNames": {
+      "class": "Identifier",
+      "name": "BoardsActionsNames",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "BoardsBuilder": {
+      "class": "Identifier",
+      "name": "BoardsBuilder",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$Boards": {
+      "class": "Identifier",
+      "name": "_$Boards",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$BoardsActions": {
+      "class": "Identifier",
+      "name": "_$BoardsActions",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_addCategory": {
+      "class": "Identifier",
+      "name": "_addCategory",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_addItem": {
+      "class": "Identifier",
+      "name": "_addItem",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_removeBoard": {
+      "class": "Identifier",
+      "name": "_removeBoard",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateBoard": {
+      "class": "Identifier",
+      "name": "_updateBoard",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateBoardOnBuilder": {
+      "class": "Identifier",
+      "name": "_updateBoardOnBuilder",
+      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

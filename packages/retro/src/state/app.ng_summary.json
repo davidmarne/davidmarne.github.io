@@ -1,0 +1,114 @@
+{
+  "ngDeps": {
+    "1": "app",
+    "3": [
+      {
+        "1": "package:built_value/built_value.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_collection/built_collection.dart",
+        "5": false
+      },
+      {
+        "1": "./auth.dart",
+        "5": false
+      },
+      {
+        "1": "./users.dart",
+        "5": false
+      },
+      {
+        "1": "./groups.dart",
+        "5": false
+      },
+      {
+        "1": "./boards.dart",
+        "5": false
+      },
+      {
+        "1": "../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../middleware/creationMiddleware.dart",
+        "5": false
+      },
+      {
+        "1": "../middleware/refMiddleware.dart",
+        "5": false
+      }
+    ],
+    "6": "app.dart"
+  },
+  "type": {
+    "App": {
+      "class": "Identifier",
+      "name": "App",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AppActions": {
+      "class": "Identifier",
+      "name": "AppActions",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AppActionsNames": {
+      "class": "Identifier",
+      "name": "AppActionsNames",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AppBuilder": {
+      "class": "Identifier",
+      "name": "AppBuilder",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AppReduceChildren": {
+      "class": "Identifier",
+      "name": "AppReduceChildren",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$App": {
+      "class": "Identifier",
+      "name": "_$App",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$AppActions": {
+      "class": "Identifier",
+      "name": "_$AppActions",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_clear": {
+      "class": "Identifier",
+      "name": "_clear",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_setCurrentBoard": {
+      "class": "Identifier",
+      "name": "_setCurrentBoard",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,188 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../boardCreate/boardCreate.dart",
+        "5": false
+      },
+      {
+        "1": "../boardCard/boardCard.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/group.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../../store.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "GroupDashboardComponent",
+        "5": [
+          {
+            "1": "StoreService",
+            "4": "storeService"
+          },
+          {
+            "1": "RouteParams",
+            "4": "_routeParams"
+          }
+        ],
+        "6": [
+          "OnInit"
+        ],
+        "7": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          },
+          {
+            "2": "BoardCreateComponent"
+          },
+          {
+            "2": "BoardCardComponent"
+          }
+        ]
+      }
+    ],
+    "6": "groupDashboard.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../boardCreate/boardCreate.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "../boardCard/boardCard.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "../../models/group.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "../../models/board.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "../../state/app.template.dart",
+        "4": "i6"
+      },
+      {
+        "1": "../../store.template.dart",
+        "4": "i7"
+      }
+    ]
+  },
+  "type": {
+    "GroupDashboardComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "groupDashboard",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "GroupDashboardComponent",
+        "moduleUrl": "asset:retro/lib/src/components/groupDashboard/groupDashboard.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "StoreService",
+                "moduleUrl": "asset:retro/lib/src/store.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "RouteParams",
+                "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<section class=\"hero is-primary\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">Pick a Board</h1>\n      <h2 class=\"subtitle\">Be nice to your friends :)</h2>\n    </div>\n  </div>\n</section>\n<section class=\"section\">\n  <div class=\"container\">\n    <div class=\"columns is-mobile\">\n      <div class=\"column is-one-half-desktop\">\n        <board-create></board-create>\n      </div>\n      <div *ngIf=\"mostRecentBoard != null\" class=\"column is-one-half-desktop\">\n          <board-card [board]=\"mostRecentBoard\"></board-card>\n      </div>\n    </div>\n    <div class=\"columns is-multiline is-mobile\">\n      <div *ngFor=\"let board of restOfBoards\" class=\"column is-half-tablet is-one-third-desktop\">\n          <board-card [board]=\"board\"></board-card>\n      </div>\n    </div>\n  </div>\n</section>\n",
+        "templateUrl": "asset:retro/lib/src/components/groupDashboard/groupDashboard.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

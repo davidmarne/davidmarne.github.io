@@ -1,0 +1,13 @@
+{
+  "ngDeps": {
+    "1": "",
+    "4": [
+      {
+        "1": "src/components/app/app.dart"
+      }
+    ],
+    "6": "retro.dart"
+  },
+  "type": {},
+  "alias": {}
+}

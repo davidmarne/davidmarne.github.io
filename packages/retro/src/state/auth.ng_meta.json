@@ -1,0 +1,73 @@
+{
+  "ngDeps": {
+    "1": "auth",
+    "3": [
+      {
+        "1": "package:built_value/built_value.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "4": "firebase",
+        "5": false
+      }
+    ],
+    "6": "auth.dart"
+  },
+  "type": {
+    "Auth": {
+      "class": "Identifier",
+      "name": "Auth",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AuthActions": {
+      "class": "Identifier",
+      "name": "AuthActions",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AuthActionsNames": {
+      "class": "Identifier",
+      "name": "AuthActionsNames",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AuthBuilder": {
+      "class": "Identifier",
+      "name": "AuthBuilder",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$Auth": {
+      "class": "Identifier",
+      "name": "_$Auth",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$AuthActions": {
+      "class": "Identifier",
+      "name": "_$AuthActions",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_logIn": {
+      "class": "Identifier",
+      "name": "_logIn",
+      "moduleUrl": "asset:retro/lib/src/state/auth.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

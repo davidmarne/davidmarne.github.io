@@ -1,0 +1,161 @@
+{
+  "ngDeps": {
+    "1": "refMiddleware",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_value/serializer.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "4": "firebase",
+        "5": false
+      },
+      {
+        "1": "../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../models/group.dart",
+        "5": false
+      },
+      {
+        "1": "../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../models/user.dart",
+        "5": false
+      },
+      {
+        "1": "../serializers.dart",
+        "5": false
+      }
+    ],
+    "6": "refMiddleware.dart",
+    "7": [
+      {
+        "1": "../state/app.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../models/group.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../models/board.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "../models/user.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "../serializers.template.dart",
+        "4": "i4"
+      }
+    ]
+  },
+  "type": {
+    "RefMiddlewareActions": {
+      "class": "Identifier",
+      "name": "RefMiddlewareActions",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "RefMiddlewareActionsNames": {
+      "class": "Identifier",
+      "name": "RefMiddlewareActionsNames",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "StreamSubManager": {
+      "class": "Identifier",
+      "name": "StreamSubManager",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "UpdateBoardSubsPayload": {
+      "class": "Identifier",
+      "name": "UpdateBoardSubsPayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$RefMiddlewareActions": {
+      "class": "Identifier",
+      "name": "_$RefMiddlewareActions",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_subToBoard": {
+      "class": "Identifier",
+      "name": "_subToBoard",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_subToGroup": {
+      "class": "Identifier",
+      "name": "_subToGroup",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_subToUser": {
+      "class": "Identifier",
+      "name": "_subToUser",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_unSubToUID": {
+      "class": "Identifier",
+      "name": "_unSubToUID",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateBoardSubs": {
+      "class": "Identifier",
+      "name": "_updateBoardSubs",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateGroupSubs": {
+      "class": "Identifier",
+      "name": "_updateGroupSubs",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateUserSubs": {
+      "class": "Identifier",
+      "name": "_updateUserSubs",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "createRefMiddleware": {
+      "class": "Identifier",
+      "name": "createRefMiddleware",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

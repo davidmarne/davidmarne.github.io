@@ -1,0 +1,32 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../state/app.dart",
+        "5": false
+      }
+    ],
+    "6": "loggingMiddleware.dart",
+    "7": [
+      {
+        "1": "../state/app.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "loggingMiddleware": {
+      "class": "Identifier",
+      "name": "loggingMiddleware",
+      "moduleUrl": "asset:retro/lib/src/middleware/loggingMiddleware.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

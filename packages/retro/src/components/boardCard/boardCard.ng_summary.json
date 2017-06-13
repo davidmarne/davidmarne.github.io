@@ -1,0 +1,72 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/board.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "BoardCardComponent",
+        "7": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "boardCard.dart"
+  },
+  "type": {
+    "BoardCardComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "board-card",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "BoardCardComponent",
+        "moduleUrl": "asset:retro/lib/src/components/boardCard/boardCard.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 4,
+      "inputs": {
+        "board": "board"
+      },
+      "inputTypes": {
+        "board": " Board"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"box is-primary\">\n  <h3 class=\"title\">{{board.displayName}}</h3>\n  <p>{{board.description}}</p>\n  <br>\n  <p>{{board.startDateStr}} - {{board.endDateStr}}</p>\n  <br>\n  <a class=\"button is-primary\">TODO: Duplicat</a>\n  <a class=\"button is-primary\" [routerLink]=\"['Board', {'guid': board.groupUid, 'buid': board.uid}]\">Go!</a>\n</div>\n",
+        "templateUrl": "asset:retro/lib/src/components/boardCard/boardCard.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}
