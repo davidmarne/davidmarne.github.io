@@ -9,10 +9,6 @@
       {
         "1": "package:built_value/serializer.dart",
         "5": false
-      },
-      {
-        "1": "package:built_collection/built_collection.dart",
-        "5": false
       }
     ],
     "6": "category.dart"

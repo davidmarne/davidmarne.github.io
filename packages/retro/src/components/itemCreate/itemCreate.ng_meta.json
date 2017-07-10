@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "package:angular_components/angular_components.dart",
-        "5": false
-      },
-      {
         "1": "package:built_redux/built_redux.dart",
         "5": false
       },
@@ -39,11 +35,6 @@
             "1": "StoreService",
             "4": "storeService"
           }
-        ],
-        "7": [
-          {
-            "2": "materialDirectives"
-          }
         ]
       }
     ],
@@ -54,24 +45,20 @@
         "4": "i0"
       },
       {
-        "1": "package:angular_components/angular_components.template.dart",
+        "1": "../../state/app.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../state/app.template.dart",
+        "1": "../../models/category.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../models/category.template.dart",
+        "1": "../../store.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../store.template.dart",
-        "4": "i4"
-      },
-      {
         "1": "../../middleware/creationMiddleware.template.dart",
-        "4": "i5"
+        "4": "i4"
       }
     ]
   },

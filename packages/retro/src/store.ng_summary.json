@@ -24,15 +24,23 @@
         "5": false
       },
       {
+        "1": "./refs.dart",
+        "5": false
+      },
+      {
+        "1": "./streamSubManager.dart",
+        "5": false
+      },
+      {
+        "1": "./firebaseClient.dart",
+        "5": false
+      },
+      {
         "1": "./middleware/creationMiddleware.dart",
         "5": false
       },
       {
         "1": "./middleware/refMiddleware.dart",
-        "5": false
-      },
-      {
-        "1": "./middleware/subSpyMiddleware.dart",
         "5": false
       },
       {

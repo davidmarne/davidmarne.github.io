@@ -3,10 +3,6 @@
     "1": "board",
     "3": [
       {
-        "1": "package:intl/intl.dart",
-        "5": false
-      },
-      {
         "1": "package:built_value/built_value.dart",
         "5": false
       },
@@ -17,35 +13,9 @@
       {
         "1": "package:built_collection/built_collection.dart",
         "5": false
-      },
-      {
-        "1": "./category.dart",
-        "5": false
-      },
-      {
-        "1": "./item.dart",
-        "5": false
-      },
-      {
-        "1": "./note.dart",
-        "5": false
       }
     ],
-    "6": "board.dart",
-    "7": [
-      {
-        "1": "./category.template.dart",
-        "4": "i0"
-      },
-      {
-        "1": "./item.template.dart",
-        "4": "i1"
-      },
-      {
-        "1": "./note.template.dart",
-        "4": "i2"
-      }
-    ]
+    "6": "board.dart"
   },
   "type": {
     "Board": {

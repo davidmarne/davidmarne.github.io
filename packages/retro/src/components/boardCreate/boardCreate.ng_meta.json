@@ -7,15 +7,15 @@
         "5": false
       },
       {
-        "1": "package:angular_components/angular_components.dart",
-        "5": false
-      },
-      {
         "1": "package:built_redux/built_redux.dart",
         "5": false
       },
       {
         "1": "../../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/dateIntervalKinds.dart",
         "5": false
       },
       {
@@ -35,11 +35,6 @@
             "1": "StoreService",
             "4": "storeService"
           }
-        ],
-        "7": [
-          {
-            "2": "materialDirectives"
-          }
         ]
       }
     ],
@@ -50,11 +45,11 @@
         "4": "i0"
       },
       {
-        "1": "package:angular_components/angular_components.template.dart",
+        "1": "../../state/app.template.dart",
         "4": "i1"
       },
       {
-        "1": "../../state/app.template.dart",
+        "1": "../../models/dateIntervalKinds.template.dart",
         "4": "i2"
       },
       {
@@ -113,7 +108,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div class=\"box\">\n  <label class=\"label\">Create a board</label>\n  <div class=\"field\">\n    <p class=\"control\">\n      <input [(ngModel)]=\"displayName\" class=\"input\" type=\"text\" placeholder=\"Name\">\n    </p>\n  </div>\n\n  <div class=\"field\">\n    <p class=\"control\">\n      <textarea [(ngModel)]=\"description\" class=\"textarea\" placeholder=\"Description\"></textarea>\n    </p>\n  </div>\n\n  <div class=\"field is-grouped\">\n    <p class=\"control\">\n      <label class=\"label\">Start</label>\n      <input [(ngModel)]=\"startDate\" class=\"input\" type=\"date\" placeholder=\"Start Date\">\n      <label class=\"label\">End</label>\n      <input [(ngModel)]=\"endDate\" class=\"input\" type=\"date\" placeholder=\"End Date\">\n    </p>\n  </div>\n\n  <div class=\"field is-grouped\">\n    <p class=\"control\">\n      <a class=\"button is-primary\" (click)=\"submit()\">Create</a>\n    </p>\n    <p class=\"control\">\n      <a class=\"button is-primary\" (click)=\"resetForm()\">Cancel</a>\n    </p>\n  </div>\n\n</div>\n",
+        "template": "<div class=\"box\">\n  <label class=\"label\">Create a board</label>\n  <div class=\"field\">\n    <p class=\"control\">\n      <input [(ngModel)]=\"title\" class=\"input\" type=\"text\" placeholder=\"Name\">\n    </p>\n  </div>\n\n  <div class=\"field\">\n    <p class=\"control\">\n      <textarea [(ngModel)]=\"description\" class=\"textarea\" placeholder=\"Description\"></textarea>\n    </p>\n  </div>\n\n  <div class=\"field is-grouped\">\n    <p class=\"control\">\n      <a class=\"button is-primary\" (click)=\"submit()\">Create</a>\n    </p>\n    <p class=\"control\">\n      <a class=\"button is-primary\" (click)=\"resetForm()\">Cancel</a>\n    </p>\n  </div>\n\n</div>\n",
         "templateUrl": "asset:retro/lib/src/components/boardCreate/boardCreate.html",
         "styles": [],
         "styleUrls": [],

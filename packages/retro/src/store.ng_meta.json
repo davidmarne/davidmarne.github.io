@@ -24,15 +24,23 @@
         "5": false
       },
       {
+        "1": "./refs.dart",
+        "5": false
+      },
+      {
+        "1": "./streamSubManager.dart",
+        "5": false
+      },
+      {
+        "1": "./firebaseClient.dart",
+        "5": false
+      },
+      {
         "1": "./middleware/creationMiddleware.dart",
         "5": false
       },
       {
         "1": "./middleware/refMiddleware.dart",
-        "5": false
-      },
-      {
-        "1": "./middleware/subSpyMiddleware.dart",
         "5": false
       },
       {
@@ -62,20 +70,28 @@
         "4": "i1"
       },
       {
-        "1": "./middleware/creationMiddleware.template.dart",
+        "1": "./refs.template.dart",
         "4": "i2"
       },
       {
-        "1": "./middleware/refMiddleware.template.dart",
+        "1": "./streamSubManager.template.dart",
         "4": "i3"
       },
       {
-        "1": "./middleware/subSpyMiddleware.template.dart",
+        "1": "./firebaseClient.template.dart",
         "4": "i4"
       },
       {
-        "1": "./middleware/loggingMiddleware.template.dart",
+        "1": "./middleware/creationMiddleware.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "./middleware/refMiddleware.template.dart",
+        "4": "i6"
+      },
+      {
+        "1": "./middleware/loggingMiddleware.template.dart",
+        "4": "i7"
       }
     ]
   },

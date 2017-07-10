@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "package:angular_components/angular_components.dart",
-        "5": false
-      },
-      {
         "1": "package:built_redux/built_redux.dart",
         "5": false
       },
@@ -38,11 +34,6 @@
           {
             "1": "StoreService",
             "4": "storeService"
-          }
-        ],
-        "7": [
-          {
-            "2": "materialDirectives"
           }
         ]
       }

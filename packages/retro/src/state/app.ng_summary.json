@@ -3,6 +3,10 @@
     "1": "app",
     "3": [
       {
+        "1": "package:intl/intl.dart",
+        "5": false
+      },
+      {
         "1": "package:built_value/built_value.dart",
         "5": false
       },
@@ -15,15 +19,7 @@
         "5": false
       },
       {
-        "1": "./auth.dart",
-        "5": false
-      },
-      {
         "1": "./users.dart",
-        "5": false
-      },
-      {
-        "1": "./groups.dart",
         "5": false
       },
       {
@@ -31,15 +27,43 @@
         "5": false
       },
       {
+        "1": "./sessions.dart",
+        "5": false
+      },
+      {
+        "1": "./categories.dart",
+        "5": false
+      },
+      {
+        "1": "./items.dart",
+        "5": false
+      },
+      {
+        "1": "./notes.dart",
+        "5": false
+      },
+      {
         "1": "../models/board.dart",
         "5": false
       },
       {
-        "1": "../middleware/creationMiddleware.dart",
+        "1": "../models/session.dart",
         "5": false
       },
       {
-        "1": "../middleware/refMiddleware.dart",
+        "1": "../models/category.dart",
+        "5": false
+      },
+      {
+        "1": "../models/item.dart",
+        "5": false
+      },
+      {
+        "1": "../models/note.dart",
+        "5": false
+      },
+      {
+        "1": "../middleware/creationMiddleware.dart",
         "5": false
       }
     ],
@@ -81,6 +105,34 @@
       "prefix": null,
       "value": null
     },
+    "CREATE_CATEGORY_MODAL": {
+      "class": "Identifier",
+      "name": "CREATE_CATEGORY_MODAL",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CREATE_ITEM_MODAL": {
+      "class": "Identifier",
+      "name": "CREATE_ITEM_MODAL",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "MANAGE_CONTENT_MODAL": {
+      "class": "Identifier",
+      "name": "MANAGE_CONTENT_MODAL",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NO_MODAL": {
+      "class": "Identifier",
+      "name": "NO_MODAL",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
     "_$App": {
       "class": "Identifier",
       "name": "_$App",
@@ -102,9 +154,44 @@
       "prefix": null,
       "value": null
     },
-    "_setCurrentBoard": {
+    "_hideModal": {
       "class": "Identifier",
-      "name": "_setCurrentBoard",
+      "name": "_hideModal",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_showModal": {
+      "class": "Identifier",
+      "name": "_showModal",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "date": {
+      "class": "Identifier",
+      "name": "date",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "dateTime": {
+      "class": "Identifier",
+      "name": "dateTime",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "now": {
+      "class": "Identifier",
+      "name": "now",
+      "moduleUrl": "asset:retro/lib/src/state/app.dart",
+      "prefix": null,
+      "value": null
+    },
+    "time": {
+      "class": "Identifier",
+      "name": "time",
       "moduleUrl": "asset:retro/lib/src/state/app.dart",
       "prefix": null,
       "value": null

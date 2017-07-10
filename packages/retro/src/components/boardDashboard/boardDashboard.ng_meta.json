@@ -15,19 +15,11 @@
         "5": false
       },
       {
-        "1": "../itemCard/itemCard.dart",
+        "1": "../sessionCard/sessionCard.dart",
         "5": false
       },
       {
-        "1": "../itemCreate/itemCreate.dart",
-        "5": false
-      },
-      {
-        "1": "../../middleware/creationMiddleware.dart",
-        "5": false
-      },
-      {
-        "1": "../../models/group.dart",
+        "1": "../sessionCreate/sessionCreate.dart",
         "5": false
       },
       {
@@ -35,11 +27,7 @@
         "5": false
       },
       {
-        "1": "../../models/item.dart",
-        "5": false
-      },
-      {
-        "1": "../../models/category.dart",
+        "1": "../../models/session.dart",
         "5": false
       },
       {
@@ -69,13 +57,10 @@
         ],
         "7": [
           {
-            "2": "ROUTER_DIRECTIVES"
+            "2": "SessionCreateComponent"
           },
           {
-            "2": "ItemCreateComponent"
-          },
-          {
-            "2": "ItemCardComponent"
+            "2": "SessionCardComponent"
           }
         ]
       }
@@ -91,40 +76,28 @@
         "4": "i1"
       },
       {
-        "1": "../itemCard/itemCard.template.dart",
+        "1": "../sessionCard/sessionCard.template.dart",
         "4": "i2"
       },
       {
-        "1": "../itemCreate/itemCreate.template.dart",
+        "1": "../sessionCreate/sessionCreate.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../middleware/creationMiddleware.template.dart",
+        "1": "../../models/board.template.dart",
         "4": "i4"
       },
       {
-        "1": "../../models/group.template.dart",
+        "1": "../../models/session.template.dart",
         "4": "i5"
       },
       {
-        "1": "../../models/board.template.dart",
+        "1": "../../state/app.template.dart",
         "4": "i6"
       },
       {
-        "1": "../../models/item.template.dart",
-        "4": "i7"
-      },
-      {
-        "1": "../../models/category.template.dart",
-        "4": "i8"
-      },
-      {
-        "1": "../../state/app.template.dart",
-        "4": "i9"
-      },
-      {
         "1": "../../store.template.dart",
-        "4": "i10"
+        "4": "i7"
       }
     ]
   },
@@ -196,7 +169,7 @@
       ],
       "template": {
         "encapsulation": 2,
-        "template": "<div *ngIf=\"board != null\">\n\n  <section class=\"hero is-primary\">\n    <div class=\"hero-body\">\n      <div class=\"container\">\n        <h1 class=\"title\">{{board.displayName}}</h1>\n        <h2 class=\"subtitle\">{{board.description}}</h2>\n      </div>\n    </div>\n  </section>\n\n  <section>\n    <div class=\"container\">\n      <nav class=\"level\">\n        <div class=\"level-left\">\n          <div class=\"level-item\">\n            <div class=\"field has-addons\">\n              <p class=\"control\">\n                <input class=\"input\" type=\"text\" placeholder=\"Create a Category\" [(ngModel)]=\"categoryCreationValue\">\n              </p>\n              <p class=\"control\">\n                <input class=\"input\" type=\"color\" [(ngModel)]=\"creationColor\">\n              </p>\n              <p class=\"control\">\n                <a class=\"button\" (click)=\"resetCategoryCreation()\">Cancel</a>\n              </p>\n              <p class=\"control\">\n                <a class=\"button is-primary\" (click)=\"sumbitCategoryCreation()\">Create</a>\n              </p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"tabs is-toggle is-pulled-right\" >\n          <ul>\n            <li class=\"is-active\">\n              <a>\n                <span>Category</span>\n              </a>\n            </li>\n            <li>\n              <a>\n                <span>Random</span>\n              </a>\n            </li>\n            <li\n              (click)=\"toggleShowingNotes()\"\n              [ngClass]=\"{'is-active': showingNotes}\">\n              <a>\n                <span>Show Notes</span>\n              </a>\n            </li>\n          </ul>\n        </div>\n      </nav>\n    </div>\n  </section>\n\n\n  <div *ngFor=\"let category of board.categories.values\">\n    <section class=\"section\">\n      <div class=\"container\">\n        <h1 class=\"title\">{{category.title}}</h1>\n        <div class=\"columns is-multiline is-mobile\">\n          <div class=\"column is-half-tablet is-one-third-desktop\">\n              <item-create [category]=\"category\"></item-create>\n          </div>\n          <div *ngFor=\"let item of itemsForCategory(category)\" class=\"column is-half-tablet is-one-third-desktop\">\n              <item-card [category]=\"category\" [item]=\"item\"></item-card>\n          </div>\n        </div>\n      </div>\n    </section>\n  </div>\n</div>\n",
+        "template": "<div *ngIf=\"board != null\">\n  <section class=\"hero is-dark\">\n    <div class=\"hero-body\">\n      <div class=\"container\">\n        <h1 class=\"title\">Pick a Session</h1>\n        <h2 class=\"subtitle\">Be nice to your friends :)</h2>\n      </div>\n    </div>\n  </section>\n  <section class=\"section\">\n    <div class=\"container\">\n      <div class=\"columns is-multiline is-mobile\">\n        <div *ngFor=\"let session of sessions\" class=\"column is-half-tablet is-one-third-desktop\">\n            <session-card [session]=\"session\"></session-card>\n        </div>\n        <div class=\"column is-one-third-desktop\">\n          <session-create></session-create>\n        </div>\n      </div>\n    </div>\n  </section>\n</div>\n",
         "templateUrl": "asset:retro/lib/src/components/boardDashboard/boardDashboard.html",
         "styles": [],
         "styleUrls": [],
@@ -206,13 +179,6 @@
       "viewProviders": [],
       "queries": [],
       "viewQueries": []
-    },
-    "DEFAULT_CATEGORY_COLOR": {
-      "class": "Identifier",
-      "name": "DEFAULT_CATEGORY_COLOR",
-      "moduleUrl": "asset:retro/lib/src/components/boardDashboard/boardDashboard.dart",
-      "prefix": null,
-      "value": null
     }
   },
   "alias": {}

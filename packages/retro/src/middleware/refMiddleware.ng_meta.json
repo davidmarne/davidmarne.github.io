@@ -1,22 +1,9 @@
 {
   "ngDeps": {
-    "1": "refMiddleware",
+    "1": "",
     "3": [
       {
-        "1": "dart:async",
-        "5": false
-      },
-      {
         "1": "package:built_redux/built_redux.dart",
-        "5": false
-      },
-      {
-        "1": "package:built_value/serializer.dart",
-        "5": false
-      },
-      {
-        "1": "package:firebase/firebase.dart",
-        "4": "firebase",
         "5": false
       },
       {
@@ -24,11 +11,23 @@
         "5": false
       },
       {
-        "1": "../models/group.dart",
+        "1": "../state/users.dart",
         "5": false
       },
       {
-        "1": "../models/board.dart",
+        "1": "../state/boards.dart",
+        "5": false
+      },
+      {
+        "1": "../state/sessions.dart",
+        "5": false
+      },
+      {
+        "1": "../state/items.dart",
+        "5": false
+      },
+      {
+        "1": "../firebaseClient.dart",
         "5": false
       },
       {
@@ -36,7 +35,15 @@
         "5": false
       },
       {
-        "1": "../serializers.dart",
+        "1": "../models/board.dart",
+        "5": false
+      },
+      {
+        "1": "../models/session.dart",
+        "5": false
+      },
+      {
+        "1": "../models/item.dart",
         "5": false
       }
     ],
@@ -47,104 +54,145 @@
         "4": "i0"
       },
       {
-        "1": "../models/group.template.dart",
+        "1": "../state/users.template.dart",
         "4": "i1"
       },
       {
-        "1": "../models/board.template.dart",
+        "1": "../state/boards.template.dart",
         "4": "i2"
       },
       {
-        "1": "../models/user.template.dart",
+        "1": "../state/sessions.template.dart",
         "4": "i3"
       },
       {
-        "1": "../serializers.template.dart",
+        "1": "../state/items.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "../firebaseClient.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "../models/user.template.dart",
+        "4": "i6"
+      },
+      {
+        "1": "../models/board.template.dart",
+        "4": "i7"
+      },
+      {
+        "1": "../models/session.template.dart",
+        "4": "i8"
+      },
+      {
+        "1": "../models/item.template.dart",
+        "4": "i9"
       }
     ]
   },
   "type": {
-    "RefMiddlewareActions": {
+    "_addSupport": {
       "class": "Identifier",
-      "name": "RefMiddlewareActions",
+      "name": "_addSupport",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "RefMiddlewareActionsNames": {
+    "_endSession": {
       "class": "Identifier",
-      "name": "RefMiddlewareActionsNames",
+      "name": "_endSession",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "StreamSubManager": {
+    "_hide": {
       "class": "Identifier",
-      "name": "StreamSubManager",
+      "name": "_hide",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "UpdateBoardSubsPayload": {
+    "_onSetCurrentBoard": {
       "class": "Identifier",
-      "name": "UpdateBoardSubsPayload",
+      "name": "_onSetCurrentBoard",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_$RefMiddlewareActions": {
+    "_onSetCurrentSession": {
       "class": "Identifier",
-      "name": "_$RefMiddlewareActions",
+      "name": "_onSetCurrentSession",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_subToBoard": {
+    "_onSetCurrentUser": {
       "class": "Identifier",
-      "name": "_subToBoard",
+      "name": "_onSetCurrentUser",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_subToGroup": {
+    "_onUpdateBoard": {
       "class": "Identifier",
-      "name": "_subToGroup",
+      "name": "_onUpdateBoard",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_subToUser": {
+    "_onUpdateSession": {
       "class": "Identifier",
-      "name": "_subToUser",
+      "name": "_onUpdateSession",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_unSubToUID": {
+    "_onUpdateUser": {
       "class": "Identifier",
-      "name": "_unSubToUID",
+      "name": "_onUpdateUser",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_updateBoardSubs": {
+    "_present": {
       "class": "Identifier",
-      "name": "_updateBoardSubs",
+      "name": "_present",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_updateGroupSubs": {
+    "_removeSupport": {
       "class": "Identifier",
-      "name": "_updateGroupSubs",
+      "name": "_removeSupport",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_updateUserSubs": {
+    "_startSession": {
       "class": "Identifier",
-      "name": "_updateUserSubs",
+      "name": "_startSession",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateCurrentBoardSubs": {
+      "class": "Identifier",
+      "name": "_updateCurrentBoardSubs",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateCurrentSessionSubs": {
+      "class": "Identifier",
+      "name": "_updateCurrentSessionSubs",
+      "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateCurrentUserSubs": {
+      "class": "Identifier",
+      "name": "_updateCurrentUserSubs",
       "moduleUrl": "asset:retro/lib/src/middleware/refMiddleware.dart",
       "prefix": null,
       "value": null

@@ -15,11 +15,15 @@
         "5": false
       },
       {
-        "1": "./models/group.dart",
+        "1": "./models/user.dart",
         "5": false
       },
       {
-        "1": "./models/item.dart",
+        "1": "./models/board.dart",
+        "5": false
+      },
+      {
+        "1": "./models/session.dart",
         "5": false
       },
       {
@@ -27,15 +31,11 @@
         "5": false
       },
       {
+        "1": "./models/item.dart",
+        "5": false
+      },
+      {
         "1": "./models/note.dart",
-        "5": false
-      },
-      {
-        "1": "./models/user.dart",
-        "5": false
-      },
-      {
-        "1": "./models/board.dart",
         "5": false
       }
     ],

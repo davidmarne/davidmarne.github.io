@@ -7,80 +7,23 @@
         "5": false
       },
       {
-        "1": "package:built_collection/built_collection.dart",
-        "5": false
-      },
-      {
-        "1": "package:firebase/firebase.dart",
-        "4": "firebase",
+        "1": "../firebaseClient.dart",
         "5": false
       },
       {
         "1": "../state/app.dart",
-        "5": false
-      },
-      {
-        "1": "../state/boards.dart",
-        "5": false
-      },
-      {
-        "1": "../models/group.dart",
-        "5": false
-      },
-      {
-        "1": "../models/category.dart",
-        "5": false
-      },
-      {
-        "1": "../models/item.dart",
-        "5": false
-      },
-      {
-        "1": "../models/board.dart",
-        "5": false
-      },
-      {
-        "1": "../models/user.dart",
-        "5": false
-      },
-      {
-        "1": "../serializers.dart",
         "5": false
       }
     ],
     "6": "creationMiddleware.dart",
     "7": [
       {
-        "1": "../state/app.template.dart",
+        "1": "../firebaseClient.template.dart",
         "4": "i0"
       },
       {
-        "1": "../state/boards.template.dart",
+        "1": "../state/app.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "../models/group.template.dart",
-        "4": "i2"
-      },
-      {
-        "1": "../models/category.template.dart",
-        "4": "i3"
-      },
-      {
-        "1": "../models/item.template.dart",
-        "4": "i4"
-      },
-      {
-        "1": "../models/board.template.dart",
-        "4": "i5"
-      },
-      {
-        "1": "../models/user.template.dart",
-        "4": "i6"
-      },
-      {
-        "1": "../serializers.template.dart",
-        "4": "i7"
       }
     ]
   },
@@ -99,13 +42,6 @@
       "prefix": null,
       "value": null
     },
-    "CreateGroupPayload": {
-      "class": "Identifier",
-      "name": "CreateGroupPayload",
-      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
-      "prefix": null,
-      "value": null
-    },
     "CreateItemPayload": {
       "class": "Identifier",
       "name": "CreateItemPayload",
@@ -113,9 +49,16 @@
       "prefix": null,
       "value": null
     },
-    "CreateUserPayload": {
+    "CreateNotePayload": {
       "class": "Identifier",
-      "name": "CreateUserPayload",
+      "name": "CreateNotePayload",
+      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CreateSessionPayload": {
+      "class": "Identifier",
+      "name": "CreateSessionPayload",
       "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
       "prefix": null,
       "value": null
@@ -155,13 +98,6 @@
       "prefix": null,
       "value": null
     },
-    "_createGroup": {
-      "class": "Identifier",
-      "name": "_createGroup",
-      "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
-      "prefix": null,
-      "value": null
-    },
     "_createItem": {
       "class": "Identifier",
       "name": "_createItem",
@@ -169,16 +105,16 @@
       "prefix": null,
       "value": null
     },
-    "_createUser": {
+    "_createNote": {
       "class": "Identifier",
-      "name": "_createUser",
+      "name": "_createNote",
       "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
       "prefix": null,
       "value": null
     },
-    "_keyListToBuiltMap": {
+    "_createSession": {
       "class": "Identifier",
-      "name": "_keyListToBuiltMap",
+      "name": "_createSession",
       "moduleUrl": "asset:retro/lib/src/middleware/creationMiddleware.dart",
       "prefix": null,
       "value": null

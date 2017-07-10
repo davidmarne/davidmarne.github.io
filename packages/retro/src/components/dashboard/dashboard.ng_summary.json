@@ -11,19 +11,19 @@
         "5": false
       },
       {
-        "1": "../groupCreate/groupCreate.dart",
+        "1": "../boardCreate/boardCreate.dart",
         "5": false
       },
       {
-        "1": "../groupCard/groupCard.dart",
+        "1": "../boardCard/boardCard.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/board.dart",
         "5": false
       },
       {
         "1": "../../state/app.dart",
-        "5": false
-      },
-      {
-        "1": "../../models/group.dart",
         "5": false
       },
       {
@@ -40,12 +40,15 @@
             "4": "storeService"
           }
         ],
+        "6": [
+          "OnInit"
+        ],
         "7": [
           {
-            "2": "GroupCreateComponent"
+            "2": "BoardCreateComponent"
           },
           {
-            "2": "GroupCardComponent"
+            "2": "BoardCardComponent"
           }
         ]
       }
@@ -95,10 +98,12 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": {
         "encapsulation": 2,
-        "template": "<section class=\"hero is-primary\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">Getting Started</h1>\n      <h2 class=\"subtitle\">Create or select a group below</h2>\n    </div>\n  </div>\n</section>\n<section class=\"section\">\n  <div class=\"container\">\n    <div class=\"columns is-mobile\">\n      <div class=\"column is-one-half-desktop\">\n        <group-create></group-create>\n      </div>\n      <div *ngIf=\"mostRecentGroup != null\" class=\"column is-one-half-desktop\">\n          <group-card [group]=\"mostRecentGroup\"></group-card>\n      </div>\n    </div>\n    <div class=\"columns is-multiline is-mobile\">\n      <div *ngFor=\"let group of restOfGroups\" class=\"column is-half-tablet is-one-third-desktop\">\n          <group-card [group]=\"group\"></group-card>\n      </div>\n    </div>\n  </div>\n</section>\n",
+        "template": "<section class=\"hero is-dark\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">Getting Started</h1>\n      <h2 class=\"subtitle\">Create or select a board below</h2>\n    </div>\n  </div>\n</section>\n\n<section class=\"section\">\n  <div class=\"container\">\n    <!--<div class=\"columns is-mobile\">\n      <div class=\"column is-one-half-desktop\">\n        <board-create></board-create>\n      </div>\n    </div>-->\n    <div class=\"columns is-multiline is-mobile\">\n      <div *ngFor=\"let board of boards\" class=\"column is-half-tablet is-one-third-desktop\">\n          <board-card [board]=\"board\"></board-card>\n      </div>\n      <div class=\"column is-one-third-desktop\">\n        <board-create></board-create>\n      </div>\n    </div>\n  </div>\n</section>\n",
         "templateUrl": "asset:retro/lib/src/components/dashboard/dashboard.html",
         "styles": [],
         "styleUrls": [],

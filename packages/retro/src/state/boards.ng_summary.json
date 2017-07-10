@@ -17,33 +17,11 @@
       {
         "1": "../models/board.dart",
         "5": false
-      },
-      {
-        "1": "../models/category.dart",
-        "5": false
-      },
-      {
-        "1": "../models/item.dart",
-        "5": false
       }
     ],
     "6": "boards.dart"
   },
   "type": {
-    "AddCategoryPayload": {
-      "class": "Identifier",
-      "name": "AddCategoryPayload",
-      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
-      "prefix": null,
-      "value": null
-    },
-    "AddItemPayload": {
-      "class": "Identifier",
-      "name": "AddItemPayload",
-      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
-      "prefix": null,
-      "value": null
-    },
     "Boards": {
       "class": "Identifier",
       "name": "Boards",
@@ -86,23 +64,9 @@
       "prefix": null,
       "value": null
     },
-    "_addCategory": {
+    "_setCurrentBoard": {
       "class": "Identifier",
-      "name": "_addCategory",
-      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_addItem": {
-      "class": "Identifier",
-      "name": "_addItem",
-      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_removeBoard": {
-      "class": "Identifier",
-      "name": "_removeBoard",
+      "name": "_setCurrentBoard",
       "moduleUrl": "asset:retro/lib/src/state/boards.dart",
       "prefix": null,
       "value": null
@@ -110,13 +74,6 @@
     "_updateBoard": {
       "class": "Identifier",
       "name": "_updateBoard",
-      "moduleUrl": "asset:retro/lib/src/state/boards.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_updateBoardOnBuilder": {
-      "class": "Identifier",
-      "name": "_updateBoardOnBuilder",
       "moduleUrl": "asset:retro/lib/src/state/boards.dart",
       "prefix": null,
       "value": null
