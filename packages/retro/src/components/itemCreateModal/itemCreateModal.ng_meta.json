@@ -1,0 +1,124 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/category.dart",
+        "5": false
+      },
+      {
+        "1": "../../store.dart",
+        "5": false
+      },
+      {
+        "1": "../../middleware/creationMiddleware.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ItemCreateModalComponent",
+        "5": [
+          {
+            "1": "StoreService",
+            "4": "storeService"
+          }
+        ]
+      }
+    ],
+    "6": "itemCreateModal.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../../state/app.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../../models/category.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "../../store.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "../../middleware/creationMiddleware.template.dart",
+        "4": "i4"
+      }
+    ]
+  },
+  "type": {
+    "ItemCreateModalComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "item-create-modal",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "ItemCreateModalComponent",
+        "moduleUrl": "asset:retro/lib/src/components/itemCreateModal/itemCreateModal.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "StoreService",
+                "moduleUrl": "asset:retro/lib/src/store.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div *ngIf=\"visible\" class=\"modal-content\">\n  <div class=\"modal-card\">\n    <header class=\"modal-card-head\">\n      <p class=\"modal-card-title\">{{category.description}}</p>\n    </header>\n    <section class=\"modal-card-body\">\n      <div class=\"field\">\n        <p class=\"control\">\n          <textarea [(ngModel)]=\"description\" class=\"textarea\" placeholder=\"Let it out\"></textarea>\n        </p>\n      </div>\n    </section>\n    <footer class=\"modal-card-foot\">\n      <a class=\"button is-success\" (click)=\"addItem()\">Save</a>\n      <a class=\"button\" (click)=\"resetItemForm()\">Discard</a>\n    </footer>\n  </div>\n</div>\n",
+        "templateUrl": "asset:retro/lib/src/components/itemCreateModal/itemCreateModal.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,116 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "4": "firebase",
+        "5": false
+      },
+      {
+        "1": "./refs.dart",
+        "5": false
+      },
+      {
+        "1": "./streamSubManager.dart",
+        "5": false
+      },
+      {
+        "1": "./serializers.dart",
+        "5": false
+      },
+      {
+        "1": "./state/app.dart",
+        "5": false
+      },
+      {
+        "1": "./models/item.dart",
+        "5": false
+      },
+      {
+        "1": "./models/note.dart",
+        "5": false
+      },
+      {
+        "1": "./models/category.dart",
+        "5": false
+      },
+      {
+        "1": "./models/board.dart",
+        "5": false
+      },
+      {
+        "1": "./models/user.dart",
+        "5": false
+      },
+      {
+        "1": "./models/session.dart",
+        "5": false
+      }
+    ],
+    "6": "firebaseClient.dart",
+    "7": [
+      {
+        "1": "./refs.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "./streamSubManager.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "./serializers.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "./state/app.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "./models/item.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "./models/note.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "./models/category.template.dart",
+        "4": "i6"
+      },
+      {
+        "1": "./models/board.template.dart",
+        "4": "i7"
+      },
+      {
+        "1": "./models/user.template.dart",
+        "4": "i8"
+      },
+      {
+        "1": "./models/session.template.dart",
+        "4": "i9"
+      }
+    ]
+  },
+  "type": {
+    "DEFAULT_SESSION_DURATION": {
+      "class": "Identifier",
+      "name": "DEFAULT_SESSION_DURATION",
+      "moduleUrl": "asset:retro/lib/src/firebaseClient.dart",
+      "prefix": null,
+      "value": null
+    },
+    "FirebaseClient": {
+      "class": "Identifier",
+      "name": "FirebaseClient",
+      "moduleUrl": "asset:retro/lib/src/firebaseClient.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

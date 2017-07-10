@@ -1,0 +1,89 @@
+{
+  "ngDeps": {
+    "1": "items",
+    "3": [
+      {
+        "1": "package:built_collection/built_collection.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_value/built_value.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../models/item.dart",
+        "5": false
+      }
+    ],
+    "6": "items.dart",
+    "7": [
+      {
+        "1": "../models/item.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "Items": {
+      "class": "Identifier",
+      "name": "Items",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ItemsActions": {
+      "class": "Identifier",
+      "name": "ItemsActions",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ItemsActionsNames": {
+      "class": "Identifier",
+      "name": "ItemsActionsNames",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ItemsBuilder": {
+      "class": "Identifier",
+      "name": "ItemsBuilder",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$Items": {
+      "class": "Identifier",
+      "name": "_$Items",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_$ItemsActions": {
+      "class": "Identifier",
+      "name": "_$ItemsActions",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_setCurrentItem": {
+      "class": "Identifier",
+      "name": "_setCurrentItem",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_updateItem": {
+      "class": "Identifier",
+      "name": "_updateItem",
+      "moduleUrl": "asset:retro/lib/src/state/items.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

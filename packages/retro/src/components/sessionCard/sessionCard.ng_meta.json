@@ -1,0 +1,133 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../../models/session.dart",
+        "5": false
+      },
+      {
+        "1": "../../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../../store.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SessionCardComponent",
+        "5": [
+          {
+            "1": "StoreService",
+            "4": "storeService"
+          }
+        ],
+        "7": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "sessionCard.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../../models/session.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "../../state/app.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "../../store.template.dart",
+        "4": "i4"
+      }
+    ]
+  },
+  "type": {
+    "SessionCardComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "session-card",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "SessionCardComponent",
+        "moduleUrl": "asset:retro/lib/src/components/sessionCard/sessionCard.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "StoreService",
+                "moduleUrl": "asset:retro/lib/src/store.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 4,
+      "inputs": {
+        "session": "session"
+      },
+      "inputTypes": {
+        "session": " Session"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"box is-primary\">\n  <h3 class=\"title\">{{session.state}}</h3>\n  <h5 class=\"subtitle\">{{lastActive()}} {{isLatest() ? \"(latest)\" : \"\"}}</h5>\n  <br>\n  <a class=\"button is-primary\" [routerLink]=\"['Session', {'buid': session.boardUid, 'suid': session.uid}]\">Go!</a>\n</div>\n",
+        "templateUrl": "asset:retro/lib/src/components/sessionCard/sessionCard.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,116 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "../../state/app.dart",
+        "5": false
+      },
+      {
+        "1": "../../store.dart",
+        "5": false
+      },
+      {
+        "1": "../../middleware/creationMiddleware.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "NoteCreateComponent",
+        "5": [
+          {
+            "1": "StoreService",
+            "4": "storeService"
+          }
+        ]
+      }
+    ],
+    "6": "noteCreate.dart",
+    "7": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../../state/app.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../../store.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "../../middleware/creationMiddleware.template.dart",
+        "4": "i3"
+      }
+    ]
+  },
+  "type": {
+    "NoteCreateComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "note-create",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "NoteCreateComponent",
+        "moduleUrl": "asset:retro/lib/src/components/noteCreate/noteCreate.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "StoreService",
+                "moduleUrl": "asset:retro/lib/src/store.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"box\">\n  <label class=\"label\">Create a Note</label>\n\n  <div class=\"field\">\n    <p class=\"control\">\n      <input [(ngModel)]=\"title\" type=\"text\" class=\"input\" placeholder=\"Title\">\n    </p>\n  </div>\n\n\n  <div class=\"field is-grouped\">\n    <p class=\"control\">\n      <a class=\"button is-primary\" (click)=\"addNote()\">Create</a>\n    </p>\n    <p class=\"control\">\n      <a class=\"button is-primary\" (click)=\"resetNoteForm()\">Cancel</a>\n    </p>\n  </div>\n\n</div>\n",
+        "templateUrl": "asset:retro/lib/src/components/noteCreate/noteCreate.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

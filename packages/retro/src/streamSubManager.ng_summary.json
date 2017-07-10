@@ -1,0 +1,39 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:built_redux/built_redux.dart",
+        "5": false
+      },
+      {
+        "1": "package:built_value/serializer.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "4": "firebase",
+        "5": false
+      },
+      {
+        "1": "./serializers.dart",
+        "5": false
+      }
+    ],
+    "6": "streamSubManager.dart"
+  },
+  "type": {
+    "StreamSubManager": {
+      "class": "Identifier",
+      "name": "StreamSubManager",
+      "moduleUrl": "asset:retro/lib/src/streamSubManager.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}
