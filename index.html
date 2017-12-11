@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <base href="/">
+<html lang="en">
 
-    <title>Retro</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+<head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
+    <link id="theme" rel="stylesheet" href="packages/prettify/styles/light.css">
+    <script type="text/javascript" src="packages/prettify/js/prettify.js"></script>
+</head>
 
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
-    <script src="main.dart" type="application/dart"></script>
-    <script src="packages/browser/dart.js"></script>
-  </head>
-  <body>
-    <app></app>
-  </body>
+
+<body>
+
+    <!-- TODO: Evaluate using this inlined here. Pro: it renders before scripts load -->
+    <div id="container">
+    </div>
+
+    <script src="../packages/browser/dart.js"></script>
+    <script src="index.dart.js"></script>
+</body>
+
 </html>
