@@ -5186,7 +5186,7 @@ y.h(0,11,"navbar-end")
 y=P.b(z,null)
 v=H.c([],v)
 y.h(0,11,"navbar-item")
-y.h(0,20,"0.4.0")
+y.h(0,20,"0.4.1")
 v=[new N.L(y,P.b(z,x),P.b(z,w),null,null,v,null,null,null)]
 z=H.c(v.slice(0),[H.u(v,0)])
 s.y=z
