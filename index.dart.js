@@ -4442,7 +4442,7 @@ y.j(0,11,"navbar-end")
 y=P.a(z,null)
 r=H.b([],v)
 y.j(0,11,"navbar-item")
-y.j(0,19,"0.6.1")
+y.j(0,19,"0.7.0")
 r=H.m(H.b([new N.S(P.a(z,null),y,P.a(z,null),P.a(z,x),r,!0)],v),"$ish",w,"$ash")
 z=H.b(r.slice(0),[H.f(r,0)])
 s.z=z
